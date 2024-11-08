@@ -2,6 +2,8 @@
 - Version Control is a process of tracking and managing changes to source code.
 - A version control system (VCS) is a tool that helps manage and track changes to a set of files over time.
 - It allows multiple people to collaborate on projects, manage different versions of files, and keep a history of changes made to the files.
+- Helps in recovery in case of any disaster or contingent situation.
+- Informs about Who, What, When, and Why changes have been made.
 
 # Types of Version Control System -
 ## 1] Centralized Version Control System -
