@@ -35,4 +35,9 @@
 #### Syntax -
         git status
 
+# git push -
+- After committing your changes, git push send them to the remote server. Your commits are updated to the remote repository by Git push.
+
+# Syntax -
+        git push {remote} {branch}
 
