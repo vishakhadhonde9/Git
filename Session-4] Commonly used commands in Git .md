@@ -8,7 +8,7 @@
 - git add .                   # Add all changes in the current directory
 - git add <directory_name>/   # Add all files in a specific directory
 
-# Git Commit -
+# git commit -
 - The git commit command is used to save changes to the local repository after staging them with git add.
 - It’s best practice to include a message with each commit explaining the changes made in a commit. Adding a commit message helps to find a particular change or understanding the changes.
 - git commit -m "Your commit message"
@@ -19,5 +19,5 @@
 - Sometimes, when you make small changes, using the staging environment seems like a waste of time. It is possible to commit changes directly, skipping the staging environment.
 - git commit -a -m “<Enter your message here>”
 
-
+#
 
