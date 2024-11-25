@@ -28,4 +28,11 @@
 #### Syntax -
       git clone {repository-url}
 
+# git status -
+- Git status command is the key to understanding Git. It will let us know what Git is processing and how Git perceives the condition of our repository.
+- It shows the current state of the working directory and the staging area.
+
+#### Syntax -
+        git status
+
 
