@@ -38,6 +38,11 @@
 # git push -
 - After committing your changes, git push send them to the remote server. Your commits are updated to the remote repository by Git push.
 
-# Syntax -
-        git push {remote} {branch}
+#### Syntax -
+      git push {remote} {branch}
 
+# git pull -
+- git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content.
+
+#### Syntax -
+     git pull <remote> <branch>
