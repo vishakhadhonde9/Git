@@ -26,7 +26,9 @@
 - A release branch is created to prepare for a new version or release of the software.
 - It allows for final testing, minor bug fixes, and preparation of release notes.
 
-
+## 5] Hotfix Branch -
+- A special type of branch for quickly addressing critical issues in production (such as security problems).
+- It is created from the main branch and merged back quickly after the fix.
 
 ## Create a branch: Use the git branch command to create a new branch.
      git branch <branch-name>
