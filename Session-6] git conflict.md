@@ -6,4 +6,5 @@
 - Git will often automatically handle merging, but when there are conflicting changes, you'll need to resolve them manually.
 
 ## git merge -
+- merging the branch with the parent branch once you have finished developing your branch
 - 
