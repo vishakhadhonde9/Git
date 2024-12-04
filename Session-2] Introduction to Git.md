@@ -20,3 +20,13 @@
 
 
 # Installation of Git -
+
+#### Steps to install git on Red-Hat based Systems:
+- Update System.
+         sudo yum update -y
+- Install git package.
+         sudo yum install git -y
+- Verify the installation.
+         git --version
+   
+# Configure the git -
