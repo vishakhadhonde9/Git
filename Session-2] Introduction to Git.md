@@ -30,3 +30,11 @@
          git --version
    
 # Configure the git -
+## git config -
+- Git needs to be configured before you can use it.
+- The Git config command is used enter the login and email addresses you want to be associated with your commits.
+#### sets up Git with your name-
+        git config --global user.name "<Your-Full-Name>“
+
+#### sets up Git with your email-
+        git config --global user.email "<your-email-address>"
