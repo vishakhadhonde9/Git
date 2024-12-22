@@ -29,6 +29,11 @@
        folder path where you have to download 
 
 ### Clone branch -
+    git clone --branch branch-name URL
+                  OR
+    
+    git clone -b branch-name URL
+
 
    
 
