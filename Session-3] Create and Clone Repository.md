@@ -22,3 +22,15 @@
 - When you clone a repository, you get the entire project, including all its files, commit history, branches, and configurations, so that you can work on it locally.
 
 ![image](https://github.com/user-attachments/assets/3bc4a7ba-ad3a-4695-aae2-e1aaf8d60f2c)
+
+
+### Syntax -
+    git clone [repository URL] folder_path
+       folder path where you have to download 
+
+### Clone branch -
+
+   
+
+
+    
