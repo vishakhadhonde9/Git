@@ -41,8 +41,27 @@
 #### Syntax -
       git push {remote} {branch}
 
+## Generate an SSH key:
+       ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
+
+## Add your SSH key to the SSH agent:
+      eval "$(ssh-agent -s)"
+      ssh-add ~/.ssh/id_rsa
+ 
+## Copy your SSH public key to GitHub:
+      cat /home/ec2-user/.ssh/id_rsa.pub
+
+
 # git pull -
 - git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content.
 
 #### Syntax -
      git pull <remote> <branch>
+
+
+
+
+
+
+
+     
