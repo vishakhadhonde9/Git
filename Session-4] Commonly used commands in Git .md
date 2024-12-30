@@ -47,10 +47,15 @@
 ## Add your SSH key to the SSH agent:
       eval "$(ssh-agent -s)"
       ssh-add ~/.ssh/id_rsa
+- The SSH agent will store this key and allow it to be used when you connect to remote servers like GitHub, without needing you to re-enter the password or passphrase each time.
+- ssh-add is a command used to add SSH private keys to the SSH agent.
  
 ## Copy your SSH public key to GitHub:
       cat /home/ec2-user/.ssh/id_rsa.pub
-
+   
+## Git Push -
+      git remote add origin git@github.com:username/repository.git
+      git push -u origin main
 
 # git pull -
 - git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content.
