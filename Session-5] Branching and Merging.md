@@ -45,6 +45,10 @@
        If you want to create and switch to a new branch, use the command:
        git checkout -b <new-branch-name>
 
+### Listing branches-
+       git branch
+
+
 ## Benefits of branching in Git:
 - Avoids impacting the live version: Developers can make copies of files without affecting the live version. 
 - Collaborates with other developers: Branches allow for easier collaboration among developers who have access to the repository. 
