@@ -63,7 +63,7 @@
 #### Syntax -
      git pull <remote> <branch>
 
-
+     git pull origin <branch-name>
 
 
 
