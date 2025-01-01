@@ -20,12 +20,13 @@
 
 # Rebasing -
 - Rebasing is a powerful Git command that allows you to integrate changes from one branch into another.
+- Switch to target branch and then rebash.
 
 #### Syntax -
      git rebase <branch-name>
 
 # Reverting -
-- Resetting moves your branch pointer to a different commit, discarding (or optionally keeping) the changes you’ve made.
+- git revert is a command used to create a new commit that undoes the changes made in a previous commit.
 - It can change history, and can be more destructive than reverting.
 - It does not delete the original commit. Instead, it creates a new commit that undoes the changes made by the original commit.
 
