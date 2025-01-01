@@ -33,6 +33,14 @@
 #### Syntax -
      git revert <commit-hash>
 
+
+
+- git log --oneline: to view the Git commit history in a compact, one-line format.
+- you can again revert into reverted commit
+
+        git revert <reverted-hash>
+             
+
 # Resetting -
 - The git reset is a command used to undo changes in Git.
 - It moves your project back to an earlier commit and can affect three areas depending on how you use it:
