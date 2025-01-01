@@ -4,7 +4,18 @@
 - The git stash command temporarily saves your changes and reverts your working directory to the last commit.
 
 #### Syntax -
-     git stash
+     git stash  #give any random name to stash
+     git stash -m "message"
+
+- Listing Stashes:
+      - Use git stash list to view all the stashes you've saved.
+
+- To apply the most recent stash: git stash apply.
+- To apply a specific stash (e.g., stash@{2}): git stash apply stash@{2}.
+- Use git stash drop stash@{n} to remove a specific stash
+- git stash clear to remove all stashes.
+- You can stash only specific files using git stash push <file>, e.g., git stash push file1.txt
+- git stash pop — Applies and removes the most recent stash.
 
 
 # Rebasing -
