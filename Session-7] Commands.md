@@ -58,7 +58,7 @@
 - Keeps your changes staged for commit.
 - Use it when you want to change the last commit but keep your work.
 
-#### 2.Mixed Reset (git reset --mixed):
+#### 2.Mixed Reset (git reset --mixed) (Default):
 - Moves the pointer (HEAD) to an earlier commit.
 - Removes changes from the staging area but keeps them in your files.
 - Use it when you want to unstage changes but not lose your work.
