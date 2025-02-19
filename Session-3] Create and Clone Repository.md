@@ -10,29 +10,6 @@
 - **Remote repository:**
          This is the version of the repository stored online, on a server or platform like GitHub, GitLab, or Bitbucket. It allows you to share your project and collaborate with others.
 
-# Create a Repository-
-### git init- 
-- git init is used to initialize a new Git repository in a project directory.
-- When you run git init, the following happens:
-   - Creates a .git folder: Git creates a hidden folder called .git inside your project directory. This folder contains all the metadata and configuration files that Git uses to track your project’s history.
-   - Makes the folder a Git repository: After running git init, the folder is now considered a Git repository.
-
-# Clone Repository-
-- Clone means to create a copy of a repository, typically from a remote server (like GitHub, GitLab, or Bitbucket), onto your local machine.
-- When you clone a repository, you get the entire project, including all its files, commit history, branches, and configurations, so that you can work on it locally.
-
-![image](https://github.com/user-attachments/assets/3bc4a7ba-ad3a-4695-aae2-e1aaf8d60f2c)
-
-
-### Syntax -
-    git clone [repository URL] folder_path
-       folder path where you have to download 
-
-### Clone branch -
-    git clone --branch branch-name URL
-                  OR
-    
-    git clone -b branch-name URL
 
 
    
