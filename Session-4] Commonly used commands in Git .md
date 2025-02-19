@@ -32,9 +32,22 @@
 # git clone -
 - git clone is used to download current source code from a remote repository (like GitHub, for example).
 - It essentially creates an exact copy of the most recent version of a project in a repository and stores it on your computer.
+- Clone means to create a copy of a repository, typically from a remote server (like GitHub, GitLab, or Bitbucket), onto your local machine.
+- When you clone a repository, you get the entire project, including all its files, commit history, branches, and configurations, so that you can work on it locally.
 
-#### Syntax -
-      git clone {repository-url}
+![image](https://github.com/user-attachments/assets/3bc4a7ba-ad3a-4695-aae2-e1aaf8d60f2c)
+
+
+### Syntax -
+    git clone [repository URL] folder_path
+       folder path where you have to download 
+
+### Clone branch -
+    git clone --branch branch-name URL
+                  OR
+    
+    git clone -b branch-name URL
+
 
 # git status -
 - Git status command is the key to understanding Git. It will let us know what Git is processing and how Git perceives the condition of our repository.
