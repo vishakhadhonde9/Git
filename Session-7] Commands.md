@@ -7,10 +7,15 @@
      git stash  #give any random name to stash
      git stash -m "message"
 
-- Listing Stashes:
-      - Use git stash list to view all the stashes you've saved.
+##### Listing Stashes:
+- Use git stash list to view all the stashes you've saved.
 
-- To apply the most recent stash: git stash apply.
+          git stash list
+
+##### To apply the most recent stash: 
+
+          git stash apply.
+
 - To apply a specific stash (e.g., stash@{2}): git stash apply stash@{2}.
 - Use git stash drop stash@{n} to remove a specific stash
 - git stash clear to remove all stashes.
@@ -21,9 +26,11 @@
 # Rebasing -
 - Rebasing is a powerful Git command that allows you to integrate changes from one branch into another.
 - Switch to target branch and then rebash.
+- It helps keep a clean Git history by avoiding unnecessary merge commits.
 
 #### Syntax -
-     git rebase <branch-name>
+     
+      git rebase <branch-name>
 
 # Reverting -
 - git revert is a command used to create a new commit that undoes the changes made in a previous commit.
